@@ -144,4 +144,4 @@ fi
 eval "$(zoxide init zsh)"
 
 # add console ninja
-PATH=~/.console-ninja/.bin:$PATH
+
