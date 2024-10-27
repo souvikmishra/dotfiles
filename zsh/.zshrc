@@ -99,8 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # some custom aliases
-
-
 alias vim=nvim
 alias ll="ls -Alh"
 alias ls='lsd --group-dirs first'
@@ -110,6 +108,8 @@ alias tmuxconf="cd ~/.config/tmux && nvim"
 alias rzsh="source ~/.zshrc"
 alias rtmux="tmux source ~/.config/tmux/tmux.conf"
 alias cls="clear"
+alias tm="tmux"
+alias tma="tmux attach"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -142,6 +142,3 @@ fi
 # fi
 
 eval "$(zoxide init zsh)"
-
-# add console ninja
-
