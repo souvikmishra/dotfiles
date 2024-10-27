@@ -1,2 +1,2 @@
-require("souvik.core")
-require("souvik.lazy")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
