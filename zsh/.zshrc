@@ -110,6 +110,8 @@ alias rtmux="tmux source ~/.config/tmux/tmux.conf"
 alias cls="clear"
 alias tm="tmux"
 alias tma="tmux attach"
+alias nrd="npm run dev"
+alias nrb="npm run build"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
