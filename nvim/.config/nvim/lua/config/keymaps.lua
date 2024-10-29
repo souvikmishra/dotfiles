@@ -16,7 +16,7 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 
 -- delete single character without copying into register
--- keymap.set("n", "x", '"_x')
+-- keymap.set("n", "x", "_x")
 
 -- center screen when scrolling up and down
 keymap.set("n", "<C-u>", "<C-u>zz", { desc = "Scroll up with cursor in the middle" })
