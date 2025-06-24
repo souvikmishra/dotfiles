@@ -143,4 +143,9 @@ fi
 #   exec tmux
 # fi
 
+# ngrok autocomplete
+if command -v ngrok &>/dev/null; then
+  eval "$(ngrok completion)"
+fi
+
 eval "$(zoxide init zsh)"
